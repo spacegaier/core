@@ -10,7 +10,6 @@ from typing import Any, Dict, Optional, Tuple
 
 import aiohttp
 
-ELEVATION_URL = "https://api.open-elevation.com/api/v1/lookup"
 IP_API = "http://ip-api.com/json"
 IPAPI = "https://ipapi.co/json/"
 

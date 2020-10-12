@@ -9,7 +9,6 @@ from homeassistant.loader import Integration, IntegrationNotFound, async_get_int
 import homeassistant.util.package as pkg_util
 
 DATA_PIP_LOCK = "pip_lock"
-DATA_PKG_CACHE = "pkg_cache"
 DATA_INTEGRATIONS_WITH_REQS = "integrations_with_reqs"
 CONSTRAINT_FILE = "package_constraints.txt"
 DISCOVERY_INTEGRATIONS: Dict[str, Iterable[str]] = {
